@@ -1,0 +1,140 @@
+.cart-section {
+    width: 100%;
+    padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list {
+    width: 70%;
+}
+
+.checkout-section {
+    width: 28%;
+}
+
+.section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.cart {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sm-product {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cart .sm-product:last-child {
+    margin-bottom: 0;
+}
+
+.sm-product-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.sm-text {
+    width: 50%;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.sm-product-name {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.item-counter {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.item-count {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+}
+
+.sm-price {
+    font-size: 50px;
+    font-weight: 500;
+    color: #383838;
+}
+
+.sm-delete-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+    border-radius: 1px solid rgb(216, 216, 216);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.sm-delete-btn img {
+    height: 10px;
+}
+
+.checkout-box {
+    margin-top: 95px;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    padding: 20px;
+}
+
+.text {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.checkout-btn {
+    display: block;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    background: #383838;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.bill {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 10px 0;
+}

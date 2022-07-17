@@ -1,0 +1,20 @@
+.product {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.heading {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding: 0 10vw;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    margin-right: -85px;
+    grid-row-gap: 40px;
+}
